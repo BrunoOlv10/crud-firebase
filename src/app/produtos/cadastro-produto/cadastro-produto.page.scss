@@ -13,6 +13,13 @@ ion-title:hover {
   transition: 0.5s;
 }
 
+main.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
 ion-input {
   width: 80vw;
   margin: auto;
@@ -33,7 +40,7 @@ button {
   width: 150px;
   height: 30px;
   background: #9500ff;
-  margin: 230px auto;
+  margin: 20px auto;
   border-radius: 5px;
 }
 
