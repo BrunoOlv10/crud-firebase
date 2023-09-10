@@ -1,0 +1,66 @@
+ion-toolbar {
+  --background: #121212;
+}
+
+ion-title {
+  text-align: center;
+  color: #9500ff;
+}
+
+ion-title:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+ion-item.box-aviso {
+  --background: #121212;
+  border: none;
+}
+
+ion-item {
+  --background: #181818;
+}
+
+ion-label.aviso:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #9500ff;
+}
+
+button:hover {
+  scale: 115%;
+  transition-property: scale;
+  transition-duration: 150ms;
+  filter: brightness(1.1);
+}

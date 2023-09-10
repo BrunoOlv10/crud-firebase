@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-back-button slot="start"></ion-back-button>
+    <ion-title>📦 Alterar Produto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <div class="principal">
+      <div class="nome">
+        <ion-label>Nome</ion-label>
+        <!-- Integra o input do Ionic com o atributo nome da classe Produto -->
+        <ion-input [(ngModel)]="produto.nome"></ion-input>
+      </div>
+      <div class="valor">
+        <ion-label>Valor</ion-label>
+        <!-- Integra o input do Ionic com o atributo valor da classe Produto -->
+        <ion-input [(ngModel)]="produto.valor" type="number"></ion-input>
+      </div>
+
+        <br>
+        <!-- Chama o método salvar que envia os dados para o Firebase -->
+        <button expand="block" (click)="salvar()">Salvar Alterações</button>
+    </div>
+
+</ion-content>
